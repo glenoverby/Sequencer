@@ -1,7 +1,8 @@
 
 
 # An Arduino Sequencer for Amateur Radios
-Glen Overby, kc0iyt
+By Glen Overby, kc0iyt
+October 20, 2026
 
 ## Introduction
 
@@ -126,9 +127,9 @@ The Arduino board itself isn't really
 offering anything this project needs.  This can be run using the internal
 oscillator at 8MHz.
 There are some "bread board" processor definitions that could be used to
-program the microcontroller without 
-I found an Arduino board definition called < > that allowed me to program
-a non-Arduino board using the IDE.
+program the microcontroller on a breadboard.
+I then found an Arduino board definition called <???> that allowed me to
+program a non-Arduino board using the IDE.
 I made a PCB for the ATmega328 chip with an Arduino-compabible pinout and am
 able to program it.  I've designed a PCB for a sequencer using just the
 ATmega328 chip, but have not assembled and tested it yet.

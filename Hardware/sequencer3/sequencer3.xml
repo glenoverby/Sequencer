@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/glen/kicad/sequencer3/sequencer3.kicad_sch</source>
+    <date>Tue Nov 14 01:04:39 2023</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sequencer3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B1">
+      <value>ARDUINO_PRO_MINI</value>
+      <footprint>ARDUINO_PRO_MINI</footprint>
+      <libsource lib="Sparkfun_Boards" part="ARDUINO_PRO_MINI" description="SparkFun Pro Mini  Pro Mini compatible footprint. &lt;li&gt;&lt;b&gt;Dimensions:&lt;/b&gt; 0.7 x 1.3&quot;&lt;li&gt;&lt;b&gt;PCB Thickness:&lt;/b&gt; 0.8mm &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11114 &gt;3.3V/8MHz&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11113 &gt;5V/16MHz&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="SparkFun Pro Mini  Pro Mini compatible footprint. &lt;li&gt;&lt;b&gt;Dimensions:&lt;/b&gt; 0.7 x 1.3&quot;&lt;li&gt;&lt;b&gt;PCB Thickness:&lt;/b&gt; 0.8mm &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11114 &gt;3.3V/8MHz&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11113 &gt;5V/16MHz&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <property name="ki_keywords" value="PROD_ID:XXX-00000"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5d5ac35-6ae0-4159-a4eb-d34944e599d1</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D_Zener</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P5.08mm_Vertical_KathodeUp</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3edbb761-684b-46b1-a5c8-2f24e8899cb7</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b274984-452b-4970-8eab-62b4d17e49f7</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4644e71b-620a-4dd6-8f20-01606c83f7a1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ebfb58e-8d7b-4e70-9ffe-a1264b4f0570</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49e3139f-1593-431c-93e4-d4c32825ab05</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14b70abf-113d-4ca7-99aa-4b4c3f596409</tstamps>
+    </comp>
+    <comp ref="PTT1">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6ff1bdf-4946-4eea-b5d2-24cb70977135</tstamps>
+    </comp>
+    <comp ref="PWR1">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3005bda-3b41-460b-8c95-569df0d1b8a9</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>VN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BS170-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BS170" description="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64ef5f20-d4fa-4aa8-a46e-0cd3d9c6a901</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>VP3203</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.vishay.com/docs/70209/70209.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="BS250" description="-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46dfb08f-76ae-4792-9a27-fce89c35d24b</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>VN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BS170-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BS170" description="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85dd0063-7d37-4d62-9e48-819960927cf8</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>VN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BS170-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BS170" description="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7695599b-114e-4578-8035-3a3731a4b585</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>VN2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BS170-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BS170" description="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0981c036-1239-494a-a7cd-6e29d6796277</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>VP3203</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.vishay.com/docs/70209/70209.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="BS250" description="-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9adad09-59f0-4909-afe3-12c00406d727</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BS170-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BS170" description="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11128d0e-9997-470c-810e-b5e294088023</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BS170-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BS170" description="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5626d2c-91db-4fe0-a30f-f5e3e84d2a26</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ae35bcc-bf88-4d38-9362-83d4541e5192</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="sequencer3.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf4bbfc9-2828-43cb-a90e-910b3ccb4e04</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Sparkfun_Boards" part="ARDUINO_PRO_MINI">
+      <description>SparkFun Pro Mini  Pro Mini compatible footprint. &lt;li&gt;&lt;b&gt;Dimensions:&lt;/b&gt; 0.7 x 1.3"&lt;li&gt;&lt;b&gt;PCB Thickness:&lt;/b&gt; 0.8mm &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11114 &gt;3.3V/8MHz&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11113 &gt;5V/16MHz&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*ARDUINO_PRO_MINI*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">ARDUINO_PRO_MINI</field>
+        <field name="Footprint">ARDUINO_PRO_MINI</field>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXO" type="bidirectional"/>
+        <pin num="2" name="RXI" type="bidirectional"/>
+        <pin num="3" name="RST" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="2" type="bidirectional"/>
+        <pin num="6" name="*3" type="bidirectional"/>
+        <pin num="7" name="4" type="bidirectional"/>
+        <pin num="8" name="*5" type="bidirectional"/>
+        <pin num="9" name="*6" type="bidirectional"/>
+        <pin num="10" name="7" type="bidirectional"/>
+        <pin num="11" name="8" type="bidirectional"/>
+        <pin num="12" name="*9" type="bidirectional"/>
+        <pin num="13" name="*10" type="bidirectional"/>
+        <pin num="14" name="*11" type="bidirectional"/>
+        <pin num="15" name="12" type="bidirectional"/>
+        <pin num="16" name="13" type="bidirectional"/>
+        <pin num="17" name="A0" type="bidirectional"/>
+        <pin num="18" name="A1" type="bidirectional"/>
+        <pin num="19" name="A2" type="bidirectional"/>
+        <pin num="20" name="A3" type="bidirectional"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="RST" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="RAW" type="power_in"/>
+        <pin num="A4" name="A4" type="bidirectional"/>
+        <pin num="A5" name="A5" type="bidirectional"/>
+        <pin num="A6" name="A6" type="bidirectional"/>
+        <pin num="A7" name="A7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BS170">
+      <description>0.5A Id, 60V Vds, N-Channel MOSFET, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BS170-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BS170</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BS170-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BS250">
+      <description>-0.18A Id, -45V Vds, P-Channel MOSFET, TO-92</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BS250</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://www.vishay.com/docs/70209/70209.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CTL1">
+      <node ref="B1" pin="12" pinfunction="*9" pintype="bidirectional"/>
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="2" name="/CTL2">
+      <node ref="B1" pin="11" pinfunction="8" pintype="bidirectional"/>
+      <node ref="Q3" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="3" name="/CTL3">
+      <node ref="B1" pin="15" pinfunction="12" pintype="bidirectional"/>
+      <node ref="Q4" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="4" name="/CTL4">
+      <node ref="B1" pin="13" pinfunction="*10" pintype="bidirectional"/>
+      <node ref="Q5" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="5" name="/CTL5">
+      <node ref="B1" pin="5" pinfunction="2" pintype="bidirectional"/>
+      <node ref="Q7" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="6" name="/CTL6">
+      <node ref="B1" pin="6" pinfunction="*3" pintype="bidirectional"/>
+      <node ref="Q8" pin="2" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="B1" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="B1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="PTT1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="PWR1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(B1-*5)">
+      <node ref="B1" pin="8" pinfunction="*5" pintype="bidirectional"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(B1-7)">
+      <node ref="B1" pin="10" pinfunction="7" pintype="bidirectional"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="PTT1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J1-Pin_3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J1-Pin_5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J1-Pin_7)">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(J2-Pin_3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q2-G)">
+      <node ref="Q2" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="Q7" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q6-G)">
+      <node ref="Q6" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="Q8" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="VS">
+      <node ref="B1" pin="24" pinfunction="RAW" pintype="power_in"/>
+      <node ref="PWR1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="unconnected-(B1-*6-Pad9)">
+      <node ref="B1" pin="9" pinfunction="*6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(B1-*11-Pad14)">
+      <node ref="B1" pin="14" pinfunction="*11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(B1-4-Pad7)">
+      <node ref="B1" pin="7" pinfunction="4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(B1-13-Pad16)">
+      <node ref="B1" pin="16" pinfunction="13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(B1-A0-Pad17)">
+      <node ref="B1" pin="17" pinfunction="A0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(B1-A1-Pad18)">
+      <node ref="B1" pin="18" pinfunction="A1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(B1-A2-Pad19)">
+      <node ref="B1" pin="19" pinfunction="A2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(B1-A3-Pad20)">
+      <node ref="B1" pin="20" pinfunction="A3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(B1-PadA4)">
+      <node ref="B1" pin="A4" pinfunction="A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(B1-PadA5)">
+      <node ref="B1" pin="A5" pinfunction="A5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(B1-PadA6)">
+      <node ref="B1" pin="A6" pinfunction="A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(B1-PadA7)">
+      <node ref="B1" pin="A7" pinfunction="A7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(B1-RST-Pad3)">
+      <node ref="B1" pin="3" pinfunction="RST" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(B1-RST-Pad22)">
+      <node ref="B1" pin="22" pinfunction="RST" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(B1-RXI-Pad2)">
+      <node ref="B1" pin="2" pinfunction="RXI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(B1-TXO-Pad1)">
+      <node ref="B1" pin="1" pinfunction="TXO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(B1-VCC-Pad21)">
+      <node ref="B1" pin="21" pinfunction="VCC" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>
