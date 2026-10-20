@@ -1,7 +1,5 @@
-
-
 # An Arduino Sequencer for Amateur Radios
-By Glen Overby, kc0iyt
+By Glen Overby, kc0iyt  
 October 20, 2026
 
 ## Introduction
